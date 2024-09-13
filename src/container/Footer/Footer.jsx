@@ -64,7 +64,7 @@ const Footer = () => {
         </div> */}
 
         <div className="rights">
-          <p>© 2024 DJI Drone Shop. All Rights Reserved.</p>
+          <p>© 2024 My Puri Realty. All Rights Reserved.</p>
           <p>
             <a href="#" alt="Privacy Policy">
               Privacy Policy
