@@ -26,6 +26,10 @@ import mini4 from "../assets/mini4pro.webp";
 import mavic from "../assets/mavic.webp";
 import air3 from "../assets/air3.jpg";
 import droneHero from "../assets/dronehero.svg";
+import real1 from "../assets/real1.svg";
+import real2 from "../assets/real2.svg";
+import real3 from "../assets/real3.svg";
+import clearoff from "../assets/clearoff.png";
 
 export default {
   thingshappen,
@@ -56,4 +60,8 @@ export default {
   mavic,
   air3,
   droneHero,
+  clearoff,
+  real1,
+  real2,
+  real3,
 };

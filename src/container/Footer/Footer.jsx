@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="row align-items-center">
         <div className="col-md-2 col-12">
           <img
-            src={images.logodjidrone}
+            src={images.clearoff}
             alt="logo"
             width="50"
             height="50"
@@ -37,11 +37,11 @@ const Footer = () => {
               {" "}
               <span>Contact us:</span>
             </li>
-            <li>Email: djidroneshop@gmail.com</li>
-            <li>Phone: +91-7008560260</li>
+            <li>Email: mypurirealty@gmail.com</li>
+            <li>Phone: +91-9438141111</li>
             <li>
-              Address: Shop No. 06, Behera Sahi Rd, Beherasahi, Nuasahi,
-              Nayapalli, Bhubaneswar, Odisha 751012
+              Address: Plot No. 186, Prabhat Lane, Dutta Tota, Puri, Odisha
+              752001
             </li>
           </ul>
         </div>

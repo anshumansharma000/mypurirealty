@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div id="services" className="d-block pt-md-4">
       <Headings
-        title="Why Shop With Us"
+        title="Service Offerings"
         text=" Our commitment to quality, competitive pricing, and a comprehensive product range ensures that every customer finds exactly what they're looking for"
       />
 
@@ -29,13 +29,13 @@ const Services = () => {
                     <BsFillArrowUpRightCircleFill /> Learn more{" "}
                   </a>
                 </div>
-                <div className="col-md-6 text-end">
+                {/* <div className="col-md-6 text-end">
                   <img
                     src={imgURL}
                     alt={titleone}
                     className="img-fluid img-services"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           )

@@ -10,40 +10,40 @@ const Menu = [
     link: "#services",
   },
 
+  // {
+  //   text: "Testimonials",
+  //   link: "#testimonials",
+  // },
   {
-    text: "Testimonials",
-    link: "#testimonials",
-  },
-  {
-    text: "+91-7008560260",
-    link: `tel:${+917008560260}`,
+    text: "+91-9438141111",
+    link: `tel:${+919438141111}`,
   },
 ];
 const ServicesData = [
   {
-    titleone: "Extensive Catalog",
-    titletwo: "of Drones",
+    titleone: "Plots Available",
+    // titletwo: "of Drones",
     link: "#",
     itemclass: "blight",
     imgURL: images.services01,
   },
   {
-    titleone: "Best Prices",
-    titletwo: "and Unmatched Service",
+    titleone: "Flats Available",
+    // titletwo: "and Unmatched Service",
     link: "#",
     itemclass: "bgreen",
     imgURL: images.services02,
   },
   {
-    titleone: "Expert Advice",
-    titletwo: "and Customer Satisfaction",
+    titleone: "Houses Available",
+    // titletwo: "and Customer Satisfaction",
     link: "#",
     itemclass: "bdark",
     imgURL: images.services03,
   },
   {
-    titleone: "Guaranteed Genuinity",
-    titletwo: "and After Sales",
+    titleone: "Farmhouses Available",
+    // titletwo: "and After Sales",
     link: "#",
     itemclass: "blight",
     imgURL: images.services04,

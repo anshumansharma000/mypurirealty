@@ -6,7 +6,7 @@ const Contact = () => {
     <div classNameName="section-padding">
       <Headings
         title="Contact Us"
-        text="Connect with Us: Let's  Discuss Your Drone Buying Needs"
+        text="Connect with Us: Let's  Discuss Your Real Estate Needs"
       />
 
       <div className="contact" id="quote">

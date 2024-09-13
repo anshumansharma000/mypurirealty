@@ -11,8 +11,8 @@ const Menu = () => {
       <Container>
         <Navbar.Brand href="#home">
           {" "}
-          <div>
-            <img src={images.logodjidrone} height="50" width="50" alt="logo" />
+          <div className="">
+            <img src={images.clearoff} height="100" width="100" alt="logo" />
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

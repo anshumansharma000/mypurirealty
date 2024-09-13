@@ -10,21 +10,21 @@ const Hero = () => {
     <div className="hero">
       <div className="row align-items-center">
         <div className="col-md-6 col-12">
-          <h1 className="title">The best premium drones in Bhubaneswar </h1>
+          <h1 className="title">Puri's premier real estate marketing firm</h1>
           <p className="py-4">
-            Get the best in class price and services with DJI Drone shop.{" "}
+            Get the best real estate deals in Puri with MyPuriRealty.{" "}
           </p>
           <button
             className="btn-positivus"
             onClick={() => {
-              window.open(`tel:${+917008560260}`, "_self");
+              window.open(`tel:${+91943814111}`, "_self");
             }}
           >
             Book a free consultation
           </button>
         </div>
         <div className="col-md-6 col-12 mt-md-0 mt-4">
-          <img className="img-fluid" src={images.droneHero} alt="design" />
+          <img className="img-fluid" src={images.real3} alt="design" />
         </div>
       </div>
 
