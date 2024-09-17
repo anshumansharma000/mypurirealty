@@ -1,7 +1,43 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import emailjs from "@emailjs/browser";
 import { Headings } from "../../components";
 import "./Contact.css";
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const submitContact = (e) => {
+    e.preventDefault();
+
+    // Template parameters
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+    };
+
+    emailjs
+      .send(
+        "service_7rj9747",
+        "template_gbpr2vz",
+        templateParams,
+        "Eki1_HxqImQ7HRGwy"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfully!");
+          // Reset form fields
+          setName("");
+          setEmail("");
+          setMessage("");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("An error occurred, please try again.");
+        }
+      );
+  };
   return (
     <div classNameName="section-padding">
       <Headings
@@ -43,6 +79,9 @@ const Contact = () => {
                 <input
                   className="form-control"
                   type="text"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  name="from_name"
                   placeholder="Name"
                 />
               </div>
@@ -51,7 +90,10 @@ const Contact = () => {
                 <input
                   className="form-control"
                   type="email"
+                  onChange={(e) => setEmail(e.target.value)}
+                  name="from_email"
                   placeholder="Email"
+                  value={email}
                 />
               </div>
               <div class="form-group">
@@ -60,9 +102,12 @@ const Contact = () => {
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
+                  name="message"
+                  onChange={(e) => setMessage(e.target.value)}
+                  value={message}
                 ></textarea>
               </div>
-              <button type="submit" class="btn-positivus w-100">
+              <button onClick={submitContact} class="btn-positivus w-100">
                 Submit
               </button>
             </form>
